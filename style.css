@@ -32,12 +32,12 @@ body {
 .heading {
   display: flex;
   gap: 15px;
-  width: 30px;
-  padding: 23px 14px;
+  width: 100%;
   padding-top: 14px;
+  padding: 23px 14px;
   font-weight: bold;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .heading img {
@@ -52,11 +52,26 @@ body {
 .footer {
   display: flex;
   font-size: 10px;
+  color: grey;
   gap: 13px;
   position: absolute;
   bottom: 0;
+  padding: 10px 0;
 }
 
 .footer a {
   color: gray;
+}
+.right {
+  margin: 16px 0;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+}
+.header > * {
+  padding: 20px;
 }
