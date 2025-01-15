@@ -37,3 +37,18 @@
 .p-1 {
   padding: 10px;
 }
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 6px; /* Thin scrollbar width */
+  height: 6px; /* Thin scrollbar height (for horizontal scrollbars) */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444; /* Dark thumb color */
+  border-radius: 3px; /* Rounded edges */
+  border: 1px solid #1e1e1e; /* Optional: Adds spacing effect */
+}
